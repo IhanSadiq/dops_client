@@ -1,0 +1,26 @@
+{
+  "name": "dops_client",
+  "version": "0.1",
+  "description": "Darkorbit private server client",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/IhanSadiq/DoPs-client",
+  "keywords": [
+    "darkorbit",
+    "private",
+    "server",
+    "client"
+  ],
+  "author": "IhanSadiq",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "11.3.0",
+    "electron-packager": "^15.2.0"
+  },
+  "dependencies": {
+    "electron-reload": "^1.5.0",
+    "globalshortcut": "^0.0.6"
+  }
+}
